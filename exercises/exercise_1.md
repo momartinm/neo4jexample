@@ -88,7 +88,7 @@ $ docker-compose -f docker_compose.yml up --build -d
 
 Una vez que hemos realizado la instalación de Neo4J podemos acceder mediante la utilización del página web que provee el propio servicio. Para ellos debemos acceder mediante la siguiente url __http://localhost:7474/browser/__ donde encontraremos la siguiente página web:
 
-![Página principal Neo4J](./img/neo4j_intro.png)
+![Página principal Neo4J](./resources/neo4j_intro.png)
 
 Una vez que hemos accedido a nuestra sistema de bases de datos en grafo, vamos a crear nuestra primera base de datos. Para ello utilizaremos el ejemplo que nos ofrece el propio Neo4J que nos permite crear una base de datos en grafo de películas y actores. En este caso para crear un nodo (tabla) debemos utilizar el comando __CREATE__ incluyendo entre paréntesis el nombre del nodo  y su tipo __Nombre:Tipo__ y sus diferente propiedades mediante un archivo JSON. Es decir, que si quisieramos crear una pelicula  de tipo __Movie__ denominada The Matrix, deberiamos utilizar la siguiente sintaxis.
 
@@ -119,21 +119,21 @@ En el ejemplo anterior construimos una API REST para trabajar con bases de datos
 
 Para poder acceder a los recursos de Google Coud Storage (GCS) es necesario construir unos credenciales de acceso que serán utilizados por el driver de acceso de para python. Para ellos deberemos entrar en nuestra consola de Google Cloud Platform y acceder a la sección de __APIs & Servicios__ y procesde a crear unas credenciales de tipo __Services account Key__. Una vez hayamos accedido deberemos crear una nueva cuenta de servicio como se muestra en la siguiente imagen. 
 
-<img src="./img/add_gcs_rol.png" alt="Generando cuenta de servicio para GCS" width="800"/>
+<img src="./resources/add_gcs_rol.png" alt="Generando cuenta de servicio para GCS" width="800"/>
 
 Para ellos seleccionaremos como rol para la cuenta de servicio el de __Administrador de Storage__ con el fin de tener permisos para acceder a todos los recursos disponibles. Normalmente, sólo se deben asignar aquellos persimos necesarios, pero al ser un ejemplo vamos a concederle todos los permisos que tenemos disponibles. Una vez debinidos los roles de nuestra cuenta de servicio tenemos que decidir el formato de nuestros credenciales, que en este caso sern de tipo JSON, como se observa en la siguiente imagen.  
 
-<img src="./img/generate_json.png" alt="Generando cuenta de servicio para GCS" width="800"/>
+<img src="./resources/generate_json.png" alt="Generando cuenta de servicio para GCS" width="800"/>
 
 **Paso 7: Cargando nuestros datos en google cloud storage**
 
 Una vez que hemos creado nuestros crendenciales vamos a cargar nuestros datos en GCS, para ellos vamos a utilizar la información de películas que nos ofrece el reto de [Kaggle sobre películas](https://www.kaggle.com/rounakbanik/the-movies-dataset) donde utilizaremos el fichero __movies_metadata.csv__. Para ello crearemos un __bucket__ que es el sistema de almancenamiento de información que utiliza GCS, para ello crearemos un bucket en europa __europe-west3___ como se presenta en la siguiente imagen. 
 
-<img src="./img/crear_bucket.png" alt="Creando nuestro bucket en GCS" width="800"/>
+<img src="./resources/crear_bucket.png" alt="Creando nuestro bucket en GCS" width="800"/>
 
 Una vez creado nuestro "repositorio" cargaremos nuestro fichero de datos con el fin de poder trabajar con el, pulsando en la opción __upload__ de manera que nos aparecerá una barra de proceso en la parte inferior derecha de la pantalla. 
 
-<img src="./img/upload-data.png" alt="Creando nuestro bucket en GCS" width="800"/>
+<img src="./resources/upload-data.png" alt="Creando nuestro bucket en GCS" width="800"/>
 
 **Paso 8: Descargando nuestro datos**
 

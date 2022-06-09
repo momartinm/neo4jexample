@@ -304,7 +304,7 @@ Esta función devuelve el contenido de la variable json_data con un código 200.
 
 En el caso de que quisieramos visualizar esta información mediante la interfaz gráfica que ofrece Neo4J obtendríamos la siguiente visualización:
 
-![Grafo de películas](./img/movies_graph.png)
+![Grafo de películas](./resources/movies_graph.png)
 
 **Paso 7: Visualización de una película**
 

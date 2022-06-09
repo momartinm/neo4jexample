@@ -11,7 +11,8 @@ Los grafos son un tipo de estructura de datos formado por objetos de informació
 En este taller se describe el proceso de construcción de un proceso de carga y apificación sobre la base de datos en Grafo Neo4j. 
 
 * Ejercicio 1 - [Instalación de Docker](./exercises/exercise_1.md)
-* Ejercicio 2 - [Construcción de procesos de ingestión y apificiación con grafos](./exercises/exercise_2.md)
+* Ejercicio 2 - [Manipulación de bases de datos en grafo](./exercises/exercise_2.md)
+* Ejercicio 2 - [Trabajando con ficheros y bases de datos en grafo](./exercises/exercise_3.md)
 
 ## Requisitos mínimos
 

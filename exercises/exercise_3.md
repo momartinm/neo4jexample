@@ -1,9 +1,9 @@
 ## Taller de aprendizaje de bases de datos en grafo
 ### Neo4j, GCP
 
-## Ejercicio 3 - Despliegue de una base de datos en grafo
+## Ejercicio 3 - Trabajando con ficheros y bases de datos
 
-El objetivo de este ejercicio es crear una aplicación que almacene información almacenada en ficheroe en Google Cloud Storage, procesandola y almacenándola en una base de datos en grafo mediante la utilización de una API REST. En este ejercicio vamos a utilizar las bases de datos con las que trabajamos en el anterior ejercicio y con Google Cloud Storage. 
+El objetivo de este ejercicio es crear una aplicación que almacene información almacenada en ficheros en Google Cloud Storage, procesandola y almacenándola en una base de datos en grafo mediante la utilización de una API REST. En este ejercicio vamos a utilizar las bases de datos con las que trabajamos en el anterior ejercicio y con Google Cloud Storage. 
 
 ### Desplegando nuestro contenedor Neo4J (Bases de datos en Grafo)
 

@@ -1,7 +1,7 @@
 ## Taller de aprendizaje de bases de datos en grafo
 ### Neo4j, GCP
 
-## Ejercicio 02: Manipulación de bases de datos en grafo
+## Ejercicio 2: Manipulación de bases de datos en grafo
 
 El objetivo de este ejercicio es crear un contenedor que contenga una base de datos no sólo relacion con el fin de explotar el funcionamiento de este tipo de bases de datos. En este ejercicio vamos a explorar el funcionamiento de las bases de datos en grafo. 
 
@@ -92,7 +92,7 @@ $ docker-compose -f docker_compose.yml up --build -d
 
 Una vez que hemos realizado la instalación de Neo4J podemos acceder mediante la utilización del página web que provee el propio servicio. Para ellos debemos acceder mediante la siguiente url __http://localhost:7474/browser/__ donde encontraremos la siguiente página web:
 
-![Página principal Neo4J](./img/neo4j_intro.png)
+![Página principal Neo4J](./resources/neo4j_intro.png)
 
 Una vez que hemos accedido a nuestra sistema de bases de datos en grafo, vamos a crear nuestra primera base de datos. Para ello utilizaremos el ejemplo que nos ofrece el propio Neo4J que nos permite crear una base de datos en grafo de películas y actores. 
 
@@ -135,7 +135,7 @@ MATCH p=()-[r:DIRECTED]->() RETURN p LIMIT 25
 
 Obteniéndose un grafo como el siguiente:
 
-![Grafo ejemplo Neo4J](./img/full_graph_neo4j.png)
+![Grafo ejemplo Neo4J](./resources/full_graph_neo4j.png)
 
 **Paso 5: Accediendo a nuestros datos mediante un API REST**
 

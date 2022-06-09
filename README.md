@@ -1,8 +1,8 @@
-## Taller de construcción de Redes Generativas Antagónicas (RGAs)
+## Taller de aprendizaje de bases de datos en grafo
 
 Machine Learning, TensorFlow, TensorBoard Keras, Redes de Neuronas, GAN Networks. 
 
-## Taller de aprendizaje de bases de datos en grafo
+## Bases de datos en grafo
 
 Los grafos son un tipo de estructura de datos formado por objetos de información denominados vértices o nodos unidos por enlaces denominados aristas o arcos, que permiten representar relaciones binarias entre elementos de un conjunto. Este tipo de estructura nos permite relacionar de manera sencilla información entre procesos, individuos e identificar posibles comportamientos, acciones o modelos interactivos. 
 
